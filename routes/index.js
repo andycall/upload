@@ -10,8 +10,6 @@ var jfum = new JFUM({
 });
 
 
-
-
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', { title: '考核作业上传' });
